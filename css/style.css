@@ -1,42 +1,195 @@
-button
-{
+
+.left-header{
+    position: absolute;
+    background-color: black;
+    left: -8px;
+    top: 155px;
+    height: 1097px;
+    width: 332px;
+}
+.right-header{
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 175px;
+    left: 0px;
+    top: 0px;
+}
+.logo{
+    position: absolute;
+    top: 20px;
+    left: 70px;
+    width: 127px;
+    height: 127px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 25px;
+}
+.leiden-pic {
+    position: absolute;
+    top: 175px;
+    width: calc(100% - 324px);
+    margin-left: 324px;
+    height: 642px;
+}
+.right-header a{
+    margin: 20px;
+    padding: 10px 20px;
+    position: relative;
+    left: 480px;
+    top: 60px;
+    border-width: 2px;
+    border-style: ridge;
+    border-color: white;
     background-color: black;
     color: white;
-    font-style: oblique;
-    border-color: white;
-    border-radius: 50px;
-    width: 140px;
-    font-size: small;
-    height: 40px;
-    letter-spacing: 1px;
-    border-style: ridge;
-    position: relative;
-    left: 500px;
-    bottom: 20px;   
-}
-
-header{
-    background-color: black;
-    height: 150px;
-    width: 2000px;
-    position: relative;
-    right: 10px;
-    bottom: 10px;
-}
-h2{
-    border: 2px solid;
-    width: 400px;
-    height: 400px;
-    position: relative;
-    right: 10px;
-
-}
-img{
-    border: 2px solid;
-    border-color: white;
     width: 100px;
+    height: 40px;
+    border-radius: 100px;
+    text-decoration: none;
+}
+
+.welcome{
     position: relative;
-    left: 60px;
-    top: 25px;
-    border-radius: 20px;
-}   
+    left: 50px;
+    top: 70px;
+    width: 997px;
+    height: 141px;
+    font-size: 90px;
+    color: white;
+    font-family: 'Abhaya Libre', serif;
+    font-weight: 600;
+}
+.journey{
+    position: absolute;
+    top: 900px;
+    left: 500px;
+    color: black;
+    font-family: serif;
+    font-weight: 800;
+    font-size: 48px;
+}
+.Explore{
+    position: absolute;
+    top: 1000px;
+    left: 500px;
+    width: 593px;
+    font-size: 28px;
+    font-family: serif;
+    font-weight: 500;
+}
+.black-line{
+    position: absolute;
+    top: 1250px;
+    margin-left: -px;
+    height: 106px;
+    width: 100%;
+    background-color: black;
+
+}
+.thick-header{
+    position: absolute;
+    top: 1297px;
+    height: 2206px;
+    width: 50%;
+    background-color: black;
+    left: -8px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.rectangles-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 150px;
+    padding: 100px;
+    margin-top: 1400px;
+    position: relative;
+    z-index: 1;
+    height: 2000px;
+}
+.card {
+    background-color: #fff;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    position: relative;
+}
+.card small {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: black;
+    margin-top: 400px;
+}
+H1{
+    position: absolute;
+    margin-top: 370px;
+    margin-left: 40px;
+}
+.location-logo1{
+    position: absolute;
+    height: 30px;
+    left: 20px;
+    top: 435px;
+}
+.location-logo2{
+    position: absolute;
+    height: 30px;
+    left: 18px;
+    top: 435px;
+}
+.location-logo3{
+    position: absolute;
+    height: 30px;
+    left: 50px;
+    top: 435px;
+}
+.location-logo4{
+    position: absolute;
+    height: 30px;
+    left: 1px;
+    top: 435px;
+}
+.location-logo5{
+    position: absolute;
+    height: 30px;
+    left: 3px;
+    top: 435px;
+}
+.location-logo6{
+    position: absolute;
+    height: 30px;
+    left: 70px;
+    top: 435px;
+}
+.location-logo7{
+    position: absolute;
+    height: 30px;
+    left: 0px;
+    top: 435px;
+}
+.location-logo8{
+    position: absolute;
+    height: 30px;
+    left: 10px;
+    top: 435px;
+}
+.location-logo9{
+    position: absolute;
+    height: 30px;
+    left: 45px;
+    top: 435px;
+}
+footer{
+    width: 100%;
+    height: 396px;
+    background-color: black;
+}
