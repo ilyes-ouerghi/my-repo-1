@@ -91,7 +91,7 @@
 .thick-header{
     position: absolute;
     top: 1297px;
-    height: 2206px;
+    height: 2310px;
     width: 50%;
     background-color: black;
     left: -8px;
@@ -189,7 +189,118 @@ H1{
     top: 435px;
 }
 footer{
+    margin-top: 200px;
     width: 100%;
     height: 396px;
+    background-color: black;
+}
+.monument-left-header{
+    width: 10px;
+}
+.feed{
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px  
+}
+.footer{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.monument-header{
+    position: relative;
+    margin-top: 200px;
+    color: black;
+    text-align: center;
+    font-size: 100px;
+    font-family: serif;
+    font-weight: 800;
+}
+.hortus{
+    position: relative;
+    width: 100px;
+}
+.Burcht{
+    position: relative;
+    width: 100px;
+}
+.city-hall{
+    position: relative;
+    width: 100px;
+}
+.hortus-text{
+    width: 500px;
+    margin-left: 150px;
+    margin-top: 250px;
+}
+.hortus{
+    position: absolute;
+    margin-left: 900px;
+    margin-top: -50px;
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: ridge;
+}
+.hortus-header{
+    position: absolute;
+    top: 510px;
+    margin-left: 150px;
+}
+.burcht{
+    position: absolute;
+    margin-left: 900px;
+    margin-top: -50px;
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: ridge;
+}
+.burcht-text{
+    width: 500px;
+    margin-left: 150px;
+    margin-top: 450px;
+}
+.burcht-header{
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 150px;
+}
+.city-hall{
+    position: absolute;
+    margin-left: 900px;
+    margin-top: -50px;
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: ridge;
+}
+.cityhall-text{
+    width: 500px;
+    margin-left: 150px;
+    margin-top: 450px;
+}
+.cityhall-header{
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 150px;
+}
+.inbetween-header1{
+    position: absolute;
+    margin-top: 200px;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+.inbetween-header2{
+    position: absolute;
+    margin-top: 200px;
+    height: 50px;
+    width: 100%;
     background-color: black;
 }
