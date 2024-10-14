@@ -307,20 +307,20 @@ footer{
     margin-left: 100px;
     border-radius: 10px;
 }
-nav {
+nav{
     margin-left: -150px;
     padding: 10px; 
 }
-ul {
+ul{
     list-style-type: none; 
     margin: 0;
     padding: 0;
 }
-li {
+li{
     display: inline; 
     margin-right: 20px; 
 }
-a {
+a{
     color: white; 
     text-decoration: none; 
     font-size: 16px;
@@ -328,7 +328,7 @@ a {
     a:visited{color: purple}
 
 }
-footer {
+footer{
     text-align: center; 
     background-color: black; 
     color: white; 
@@ -338,13 +338,13 @@ footer {
     bottom: 0; 
     height: 100px;
 }
-aside {
+aside{
     background-color: #f4f4f4;
     padding: 20px;
     margin: 20px;
     border: 1px solid #ccc;
 }
-form {
+form{
     max-width: 400px;
     margin: 20px auto;
     margin-top: 200px;
@@ -352,14 +352,14 @@ form {
     border: 1px solid #ccc;
     background-color: #fafafa;
 }
-fieldset {
+fieldset{
     border: none;
 }
-legend {
+legend{
     font-size: 1.2em;
     font-weight: bold;
 }
-label {
+label{
     display: block;
     margin-top: 10px;
 }
@@ -412,11 +412,11 @@ h2 {
 .cookie-message {
     background-color: #000000;
     color: #ffffff;
-    position: fixed; /* Fixed position for always on top */
+    position: fixed; /* Fixed position for always on top hehe */
     bottom: 0;
     left: 0;
     right: 0;
     padding: 10px;
     text-align: center;
-    z-index: 9999; /* High z-index value */
+    z-index: 9999; /* High z-index value so i can show it on top of everything */
 }
