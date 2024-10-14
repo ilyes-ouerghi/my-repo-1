@@ -9,14 +9,45 @@
 <body>
     <section class="Right-part">
         <header class="right-header">
-         <a href="index.html" class="HOME">HOME</a>
-         <a href="monuments.html" class="MONUMENTS">MONUMENTS</a>
-         <a href="canals.html" class="CANALS">CANALS</a>
-         <a href="churches.html" class="CHURCHES">CHURCHES</a>
-         <a href="faq.html" class="FAQ">FAQ's</a>
-         <a href="contactus.html" class="CONTACT-US">CONTACT US</a>
-         <img class="logo" src="img/Screenshot 2024-09-28 151114.png">
+            <nav>
+                <ul>
+                   <li><a href="index.html" class="HOME">HOME</a></li>
+                   <li><a href="monuments.html" class="MONUMENTS">MONUMENTS</a></li>
+                   <li><a href="canals.html" class="CANALS">CANALS</a></li>
+                   <li><a href="churches.html" class="CHURCHES">CHURCHES</a></li>
+                   <li><a href="faq.html" class="FAQ">FAQ's</a></li>
+                   <li><a href="contactus.html" class="CONTACT-US">CONTACT US</a></li>
+                </ul>
+             </nav>
+         <img class="logo" src="img/Screenshot 2024-09-28 151114.png" alt="logo" title="logo">
         </header>
+        <aside>
+            <p><strong>Note:</strong> Please fill in your <em>name</em>, <em>email</em>, and <em>message</em> carefully so we can get back to you!</p>
+        </aside>
+           
+        <form action="/submit_contact" method="POST">
+            <fieldset>
+                <legend>Contact Form</legend>
+                              
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+                    
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+       
+        <section>
+            <footer>
+                &copy; 2024 MonuLeiders. All rights reserved.
+           
+            </footer>
+        </section>
     
 </body>
 </html>
