@@ -137,55 +137,55 @@ H1{
     position: absolute;
     height: 30px;
     left: 20px;
-    top: 435px;
+    top: 410px;
 }
 .location-logo2{
     position: absolute;
     height: 30px;
     left: 18px;
-    top: 435px;
+    top: 410px;
 }
 .location-logo3{
     position: absolute;
     height: 30px;
     left: 50px;
-    top: 435px;
+    top: 415px;
 }
 .location-logo4{
     position: absolute;
     height: 30px;
     left: 1px;
-    top: 435px;
+    top: 410px;
 }
 .location-logo5{
     position: absolute;
     height: 30px;
     left: 3px;
-    top: 435px;
+    top: 410px;
 }
 .location-logo6{
     position: absolute;
     height: 30px;
     left: 70px;
-    top: 435px;
+    top: 415px;
 }
 .location-logo7{
     position: absolute;
     height: 30px;
     left: 0px;
-    top: 435px;
+    top: 410px;
 }
 .location-logo8{
     position: absolute;
     height: 30px;
     left: 10px;
-    top: 435px;
+    top: 410px;
 }
 .location-logo9{
     position: absolute;
     height: 30px;
     left: 45px;
-    top: 435px;
+    top: 415px;
 }
 footer{
     margin-top: 200px;
@@ -308,7 +308,7 @@ footer{
     border-radius: 10px;
 }
 nav {
-    margin-left: -100px;
+    margin-left: -150px;
     padding: 10px; 
 }
 ul {
@@ -323,7 +323,10 @@ li {
 a {
     color: white; 
     text-decoration: none; 
-    font-size: 18px; 
+    font-size: 16px;
+    a:hover{color:grey} 
+    a:visited{color: purple}
+
 }
 footer {
     text-align: center; 
@@ -333,7 +336,7 @@ footer {
     position: relative; 
     width: 100%; 
     bottom: 0; 
-    height: 200px;
+    height: 100px;
 }
 aside {
     background-color: #f4f4f4;
@@ -373,7 +376,47 @@ input[type="submit"] {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
-    background-color: #333;
+    background-color: black;
     color: white;
     border: none;
+}
+.headers{
+    background-color: black;
+    color: white;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.faq-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.faq-item:nth-child(even) {
+    background-color: white;
+}
+.faq-item:first-letter {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.cookie-message {
+    background-color: #000000;
+    color: #ffffff;
+    position: fixed; /* Fixed position for always on top */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    text-align: center;
+    z-index: 9999; /* High z-index value */
 }
