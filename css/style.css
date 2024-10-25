@@ -31,6 +31,7 @@
     width: calc(100% - 324px);
     margin-left: 324px;
     height: 642px;
+    
 }
 .right-header a{
     margin: 20px;
@@ -52,7 +53,7 @@
 .welcome{
     position: relative;
     left: 50px;
-    top: 70px;
+    top: 200px;
     width: 997px;
     height: 141px;
     font-size: 90px;
@@ -90,7 +91,7 @@
 .thick-header{
     position: absolute;
     top: 1297px;
-    height: 2310px;
+    height: 2510px;
     width: 50%;
     background-color: black;
     left: -8px;
@@ -311,7 +312,7 @@ nav{
     margin-left: -150px;
     padding: 10px; 
 }
-ul{
+ul > li{
     list-style-type: none; 
     margin: 0;
     padding: 0;
@@ -320,13 +321,11 @@ li{
     display: inline; 
     margin-right: 20px; 
 }
-a{
-    color: white; 
-    text-decoration: none; 
-    font-size: 16px;
-    a:hover{color:grey} 
-    a:visited{color: purple}
-
+a:hover{
+    color: gray;
+}
+a:visited{
+    color: white
 }
 footer{
     text-align: center; 
@@ -370,7 +369,7 @@ input[type="text"], input[type="email"], textarea {
     border: 1px solid #ccc;
 }
 textarea {
-    height: 150px; /* this will help me make the msg field larger */
+    height: 150px; /* this will help me make my msg field larger */
 }
 input[type="submit"] {
     width: 100%;
@@ -398,9 +397,11 @@ h2 {
 }
 .faq-item {
     margin-bottom: 15px;
+    padding: 30px;
     padding: 10px;
     border: 1px solid black;
     border-radius: 5px;
+    float: none;
 }
 .faq-item:nth-child(even) {
     background-color: white;
@@ -410,13 +411,18 @@ h2 {
     font-weight: bold;
 }
 .cookie-message {
-    background-color: #000000;
-    color: #ffffff;
-    position: fixed; /* Fixed position for always on top hehe */
+    background-color: black;
+    color: white;
+    position: fixed; 
     bottom: 0;
     left: 0;
     right: 0;
     padding: 10px;
     text-align: center;
     z-index: 9999; /* High z-index value so i can show it on top of everything */
+}
+@media (max-width: 768px) {
+    body{
+        display: flex;
+    }
 }
