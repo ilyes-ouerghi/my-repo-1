@@ -1,0 +1,12 @@
+Student name: Ilyes Ouerghi
+Student number: 729096
+Student class: IT1b
+GitHub Repository: https://github.com/ilyes-ouerghi/my-repo-1
+GitHub pages URL: 
+https://github.com/ilyes-ouerghi/my-repo-1/blob/main/monuments.html
+https://github.com/ilyes-ouerghi/my-repo-1/blob/main/index.html
+https://github.com/ilyes-ouerghi/my-repo-1/blob/main/faq.html
+https://github.com/ilyes-ouerghi/my-repo-1/blob/main/contactus.html
+https://github.com/ilyes-ouerghi/my-repo-1/blob/main/churches.html
+https://github.com/ilyes-ouerghi/my-repo-1/blob/main/canals.html
+
